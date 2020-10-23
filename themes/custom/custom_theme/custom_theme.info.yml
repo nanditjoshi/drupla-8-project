@@ -1,0 +1,27 @@
+name: Custom Theme
+type: theme
+description: 'Custom Theme for My Website.'
+package: Other
+core: 8.x
+stylesheets-remove:
+  -"style sheets to be removed"
+libraries:
+  -"custom_theme/global-css"
+  -"custom_theme/global-js"
+
+regions:
+  navigation: 'Navigation'
+  navigation_collapsible: 'Navigation (Collapsible)'
+  header: 'Top Bar'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  sidebar_first: 'Primary'
+  sidebar_second: 'Secondary'
+  footer: 'Footer'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+
+libraries-extend:
+  bootstrap/framework:
+    - custom_theme/framework

@@ -1,0 +1,98 @@
+body{ margin-top: 0px; }
+@media screen and (min-width: 768px){
+.header-container .motto--mobile {
+    display: none;
+    visibility: hidden;
+}
+}
+
+.nav > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+.nav > li  {
+  float: left;
+}
+
+.nav > li > a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.menu--main { width: 100%; }
+
+.menu--menu-articles-sub-menu{width: 42%;    float: left; } 
+
+#block-mainmenu ul { background-color: #287bce; }
+#block-mainmenu ul > li > a { color: #fff; }
+#block-mainmenu ul > li > a:hover, #block-mainmenu ul > li > a:focus, #block-mainmenu ul > li > a:active{ color: #2fa4e7; }
+
+#block-blocksocialshareicons, #block-textresize { width: 8%;    float: right; }
+#block-blocksocialshareicons a { margin-left: 3px; }
+#block-blocksocialshareicons { margin-top: 5px; }
+
+#block-block-4{ float: right;   margin-top: 2%;}
+
+.navbar{ margin-top: 0px; margin-bottom: 0px;}
+
+.well{ border: none; padding: 0px; background-color: #fff; }
+
+.region-sidebar-first .block, .region-sidebar-second .block{
+    background-color: #eeeeee;
+    border: 1px solid #eeeeee; }
+    
+    .region-sidebar-first .block .form-group , .region-sidebar-second .block  .form-group{ padding: 0 15px; }
+    
+   .region-sidebar-first nav{ 
+    background-color: #eeeeee;
+    border: 1px solid #eeeeee;
+    margin-bottom: 15px;
+    height: 100px;
+   }
+
+.region-sidebar-first nav ul{ margin-right: 0px; }
+.region-sidebar-first nav h2{ font-size: 13px; }
+
+h3, .h3 { font-size: 18px; }
+
+.footer { width: 100%; color: #cfcfcf; font-size: 12px; }
+
+.block-search-form-block{ padding-top: 15px;}
+
+.article-row{
+  border: 1px solid #eee;
+    margin-bottom: 15px;
+    padding: 10px;
+    overflow: hidden;
+    clear: both; }
+}
+
+#block-views-block-user-editors-user-block-5 ~ .contextual-region, #block-newslettersignupblock ~ .contextual-region {  display: none; }
+
+.more-link {
+			font-style: italic;
+			position: absolute;
+			top: 0;
+			right: 0;
+			margin: 8px 10px 0 0;
+		}
+		
+#block-views-block-articles-block-4 {
+    border: 1px solid #e9e9e9;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.view-id-articles h3 { font-weight: bold; }
+
+#block-views-block-user-editors-user-block-5 img, #block-views-block-user-editors-user-block-4 img { float: left; margin-right: 8px; }
